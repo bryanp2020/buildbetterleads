@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lead Engine – Funded & High‑Intent B2B Leads, Weekly</title>
+  <meta name="description" content="Get verified, high‑intent B2B leads from funded startups, healthcare, staffing, SaaS and SMB vendors — delivered weekly." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.yourdomain.com/" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <meta name="author" content="Lead Engine" />
+  <meta name="theme-color" content="#0b0d12" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Lead Engine" />
+  <meta property="og:title" content="High‑Intent B2B Leads from Funded Companies | Lead Engine" />
+  <meta property="og:description" content="Stop chasing cold leads. Get verified, ready‑to‑buy companies every week. Funding & growth signals for SaaS, Healthcare, Staffing and SMB vendors." />
+  <meta property="og:url" content="https://www.yourdomain.com/" />
+  <meta property="og:image" content="https://www.yourdomain.com/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="High‑Intent B2B Leads from Funded Companies | Lead Engine" />
+  <meta name="twitter:description" content="Verified, high‑intent B2B leads delivered weekly. Funding & growth signals." />
+  <meta name="twitter:image" content="https://www.yourdomain.com/og-image.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0d12;          /* page background */
+      --card:#11131a;        /* cards / sections */
+      --muted:#a8b0c2;       /* secondary text */
+      --text:#e8ecf7;        /* primary text */
+      --brand:#7c9cff;       /* brand accent */
+      --brand-2:#5be7c4;     /* secondary accent */
+      --danger:#ff7c7c;      /* alerts */
+      --ok:#4ade80;          /* success */
+      --border:#1b2030;      /* hairlines */
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius-1: 14px;
+      --radius-2: 22px;
+      --maxw: 1180px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{max-width:var(--maxw);margin:auto;padding:0 20px}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--border);border-radius:999px;background:linear-gradient(180deg,#121521, #0e111a);color:var(--muted);font-weight:600;font-size:12px;letter-spacing:.4px;text-transform:uppercase}
+    .tag{display:inline-block;font-size:12px;color:var(--brand-2);border:1px solid rgba(91,231,196,.3);padding:4px 10px;border-radius:999px;background:rgba(91,231,196,.08)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;border-radius:12px;border:1px solid transparent;background:var(--brand);color:#0a0a0a;font-weight:700;box-shadow:var(--shadow);transition:transform .08s ease, box-shadow .2s ease, filter .2s ease}
+    .btn:hover{transform:translateY(-1px);filter:saturate(1.1)}
+    .btn.secondary{background:transparent;border-color:#2a3350;color:var(--text)}
+    .btn.ghost{background:transparent;border:1px dashed #2a3350;color:var(--muted)}
+    .btn.block{width:100%}
+
+    /* HERO */
+    header.hero{position:relative;overflow:hidden}
+    header.hero:before{content:"";position:absolute;inset:-20% -10% auto -10%;height:580px;background:radial-gradient(80% 80% at 50% 0%, rgba(124,156,255,.25), rgba(11,13,18,0));filter:blur(20px);}
+    .hero-wrap{padding:90px 0 40px}
+    .hero-grid{display:grid;grid-template-columns:1fr;gap:30px;align-items:center;justify-items:center;text-align:center}
+    .hero h1{font-size:48px;line-height:1.05;margin:14px 0 10px}
+    .hero p.sub{font-size:18px;color:var(--muted);margin:0 0 24px}
+    .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .hero-card{border:1px solid var(--border);background:linear-gradient(180deg,#0e121b,#0b0d12);padding:18px;border-radius:var(--radius-2)}
+    .kv{border:1px solid var(--border);border-radius:var(--radius-2);padding:18px;background:linear-gradient(180deg,#0f1320,#0b0d12)}
+    .kv ul{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;margin:0;padding:0;list-style:none}
+    .kv li{display:flex;gap:10px;align-items:flex-start;color:var(--muted)}
+    .kv li svg{flex:0 0 18px;margin-top:2px}
+
+    /* SECTION WRAPPER */
+    section{padding:70px 0;border-top:1px solid var(--border)}
+    section .section-head{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:26px}
+    .section-head h2{margin:0;font-size:28px}
+    .section-head p{margin:0;color:var(--muted)}
+
+    /* PROBLEM */
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-1);padding:22px;box-shadow:var(--shadow)}
+    .badgood{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .badgood .bad{border-color:rgba(255,124,124,.3)}
+    .badgood .good{border-color:rgba(91,231,196,.35)}
+    .list{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+    .list li{display:flex;gap:10px;color:var(--muted)}
+
+    /* BENEFITS */
+    .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .grid-4 .card h3{margin:0 0 6px;font-size:18px}
+    .muted{color:var(--muted)}
+
+    /* PRICING */
+    .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .price{position:relative}
+    .price h3{margin:0 0 8px}
+    .price .amount{font-size:34px;font-weight:800}
+    .price .period{color:var(--muted);font-size:14px}
+    .price .features{margin:14px 0 18px}
+    .popular{outline:1px solid rgba(124,156,255,.7)}
+    .ribbon{position:absolute;top:12px;right:12px;background:var(--brand);color:#0a0a0a;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.2px}
+
+    /* FORM FLOW */
+    .flow{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+    .steps{display:flex;gap:8px;margin-bottom:14px}
+    .step{flex:1;height:6px;border-radius:999px;background:#1a2133}
+    .step.active{background:linear-gradient(90deg,var(--brand),var(--brand-2))}
+    .form-field{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+    .form-field label{font-size:14px;color:var(--muted)}
+    .input, select, textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #2a3350;background:#0f1320;color:var(--text)}
+    .policy{font-size:12px;color:var(--muted)}
+
+    /* FAQ */
+    details{border:1px solid var(--border);border-radius:12px;padding:14px;background:var(--card)}
+    details+details{margin-top:8px}
+    summary{cursor:pointer;font-weight:700}
+
+    /* FOOTER */
+    footer{padding:40px 0;border-top:1px solid var(--border);color:var(--muted)}
+    .footer-grid{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}
+
+    /* RESPONSIVE */
+    @media (max-width: 980px){
+      .hero-grid,.split,.grid-4,.pricing,.flow{grid-template-columns:1fr}
+      .kv ul{grid-template-columns:1fr}
+    }
+  .topnav{position:sticky;top:0;z-index:100;backdrop-filter:blur(8px);background:linear-gradient(180deg,rgba(15,19,32,.8),rgba(11,13,18,.6));border-bottom:1px solid var(--border)}
+    .topnav .container{display:flex;align-items:center;justify-content:space-between;padding:10px 20px}
+    .topnav .brand{font-weight:800;letter-spacing:.3px}
+    .topnav ul{list-style:none;margin:0;padding:0;display:flex;gap:18px}
+    .topnav a{color:var(--muted)}
+    .topnav a:hover{color:var(--brand-2)}
+    .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip-link:focus{position:static;width:auto;height:auto;padding:8px 10px;background:#000;border:1px solid var(--brand);border-radius:8px;color:#fff}
+  </style>
+<script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "name":"Lead Engine",
+        "url":"https://www.yourdomain.com/",
+        "logo":"https://www.yourdomain.com/og-image.jpg"
+      },
+      {
+        "@type":"WebSite",
+        "url":"https://www.yourdomain.com/",
+        "name":"Lead Engine",
+        "potentialAction":{
+          "@type":"SearchAction",
+          "target":"https://www.yourdomain.com/?q={search_term_string}",
+          "query-input":"required name=search_term_string"
+        }
+      },
+      {
+        "@type":"Service",
+        "name":"High-Intent B2B Lead Lists",
+        "serviceType":"Lead Generation Data Subscription",
+        "provider":{"@type":"Organization","name":"Lead Engine","url":"https://www.yourdomain.com/"},
+        "areaServed":"US",
+        "offers":[
+          {"@type":"Offer","name":"Monthly Access","price":"99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.yourdomain.com/#pricing"},
+          {"@type":"Offer","name":"Quarterly Growth","price":"499","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.yourdomain.com/#pricing"},
+          {"@type":"Offer","name":"Lifetime Access","price":"4999","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.yourdomain.com/#pricing"}
+        ]
+      },
+      {
+        "@type":"FAQPage",
+        "mainEntity":[
+          {"@type":"Question","name":"Where do the leads come from?","acceptedAnswer":{"@type":"Answer","text":"We compile leads from publicly available sources including funding announcements, company press releases, hiring boards, tech-stack signals, and verified business directories. Every record is refreshed weekly and contact details are verified prior to delivery."}},
+          {"@type":"Question","name":"Is outreach compliant with anti-spam laws?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our data supports compliant B2B outreach under applicable frameworks (e.g., CAN-SPAM, GDPR legitimate interest, CASL). Always include clear identification, a valid physical address, and an unsubscribe link. Honor opt-outs promptly and comply with local laws."}},
+          {"@type":"Question","name":"What permissions do I grant when I subscribe?","acceptedAnswer":{"@type":"Answer","text":"By subscribing, you consent to receive transactional emails (order confirmations, access instructions) and periodic product updates or tips. You can unsubscribe from non-transactional emails anytime via the link in our messages."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <nav class="topnav" aria-label="Primary">
+    <div class="container">
+      <a href="/" class="brand">Lead Engine</a>
+      <ul>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#form-flow">Sign‑Up</a></li>
+        <li><a href="#compliance">Compliance</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- HEADER / HERO -->
+  <header class="hero">
+    <div class="container hero-wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="pill">Signal‑Based Lead Engine</span>
+          <h1>Stop Chasing Cold Leads. Start Closing <span style="background:linear-gradient(90deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent">Warm Ones</span>.</h1>
+          <p class="sub">Get verified, high‑intent B2B leads from funded companies and fast‑growing teams — ideal for SaaS, Healthcare, Staffing and SMB vendors. Weekly drops. Real buying signals. Higher reply and demo rates.</p>
+          <div class="cta">
+            <a class="btn" href="#pricing">Get Weekly Leads</a>
+            <a class="btn secondary" href="#form-flow">Try the Progressive Sign‑Up</a>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </header>
+  <main id="main" role="main">
+
+  <!-- PROBLEM / SECRET SAUCE -->
+  <section id="problem">
+    <div class="container">
+      <div class="section-head">
+        <h2>The Problem & The Edge</h2>
+        <p>Static lists waste time. Signals close deals.</p>
+      </div>
+      <div class="split">
+        <div class="card">
+          <h3>Why most "leads" underperform</h3>
+          <p class="muted">Outdated contacts, recycled directories, and companies without budget. Your SDRs grind; your pipeline stalls.</p>
+          <div class="badgood">
+            <div class="card bad">
+              <strong>Old Way</strong>
+              <ul class="list">
+                <li>• Stale data & bounces</li>
+                <li>• No budget intent</li>
+                <li>• Generic scraping & guesswork</li>
+                <li>• Low reply & demo rates</li>
+              </ul>
+            </div>
+            <div class="card good">
+              <strong>Signal‑First Way</strong>
+              <ul class="list">
+                <li>• Fresh weekly verifications</li>
+                <li>• Funding & hiring triggers</li>
+                <li>• Decision‑maker context</li>
+                <li>• Higher meetings & ACV</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Our secret sauce</h3>
+          <p class="muted">We deliver <em>intent</em>, not just data. Each record is verified from real public signals (funding rounds, headcount growth, product launches) and enriched with decision‑makers and contact context.</p>
+          <ul class="list">
+            <li>• 30–90 day buying windows</li>
+            <li>• Role‑level mapping for outreach</li>
+            <li>• Weekly freshness (no hoarded lists)</li>
+            <li>• Vertical targeting: SaaS, Healthcare, Staffing, SMB</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section id="benefits">
+    <div class="container">
+      <div class="section-head">
+        <h2>Built for revenue teams</h2>
+        <p>Everything you need to book more demos this quarter.</p>
+      </div>
+      <div class="grid-4">
+        <div class="card"><h3>Fresh Weekly Drops</h3><p class="muted">250+ new, verified companies every week — delivered to a private Google Sheet.</p></div>
+        <div class="card"><h3>High‑Intent Signals</h3><p class="muted">Funding, hiring, product & tech changes — reach buyers when budgets are live.</p></div>
+        <div class="card"><h3>Decision‑Maker Access</h3><p class="muted">Role targeting with verified emails and outreach context to start conversations fast.</p></div>
+        <div class="card"><h3>Simple Pricing</h3><p class="muted">No per‑lead fees. Flat plans for solo operators to enterprise buyers.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <h2>Simple, transparent pricing</h2>
+        <p>All plans include verified weekly updates & instant access.</p>
+      </div>
+      <div class="pricing">
+        <div class="card price" aria-labelledby="plan-monthly">
+          <span class="tag">Starter</span>
+          <h3 id="plan-monthly">Monthly Access</h3>
+          <div class="amount">$99<span class="period">/mo</span></div>
+          <ul class="list features">
+            <li>250+ fresh leads every week</li>
+            <li>Cancel anytime</li>
+            <li>Email support</li>
+          </ul>
+          <a class="btn block" data-checkout="stripe" data-plan="monthly" href="#form-flow">Start Monthly</a>
+        </div>
+        <div class="card price popular" aria-labelledby="plan-quarterly">
+          <span class="ribbon">Most Popular</span>
+          <h3 id="plan-quarterly">Quarterly Growth</h3>
+          <div class="amount">$499<span class="period">/qtr</span></div>
+          <ul class="list features">
+            <li>1,000+ leads per quarter</li>
+            <li>Priority support</li>
+            <li>Best for growing teams</li>
+          </ul>
+          <a class="btn block" data-checkout="stripe" data-plan="quarterly" href="#form-flow">Go Quarterly</a>
+        </div>
+        <div class="card price" aria-labelledby="plan-lifetime">
+          <span class="tag">Scale / Agency</span>
+          <h3 id="plan-lifetime">Lifetime Access</h3>
+          <div class="amount">$4,999<span class="period"> one‑time</span></div>
+          <ul class="list features">
+            <li>16,000+ leads YTD included</li>
+            <li>Weekly updates for life</li>
+            <li>Agency / reseller friendly</li>
+          </ul>
+          <a class="btn block" data-checkout="stripe" data-plan="lifetime" href="#form-flow">Unlock Lifetime</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRESSIVE FORM & CHECKOUT FLOW -->
+  <section id="form-flow">
+    <div class="container">
+      <div class="section-head">
+        <h2>Quick Sign‑Up</h2>
+        <p>Tell us about your business, choose a plan, checkout, and get instant access.</p>
+      </div>
+      <div class="flow">
+        <!-- LEFT: FORM STEPS -->
+        <div class="card">
+          <div class="steps" aria-label="progress">
+            <div class="step active" data-stepbar="1"></div>
+            <div class="step" data-stepbar="2"></div>
+            <div class="step" data-stepbar="3"></div>
+          </div>
+
+          <!-- STEP 1: PROFILE -->
+          <form id="step-1" class="step-form" autocomplete="on">
+            <h3>Step 1 · Your Profile</h3>
+            <div class="form-field">
+              <label for="name">Full Name *</label>
+              <input class="input" id="name" name="name" required placeholder="Alex Morgan" />
+            </div>
+            <div class="form-field">
+              <label for="company">Company Name *</label>
+              <input class="input" id="company" name="company" required placeholder="Acme Growth LLC" />
+            </div>
+            <div class="form-field">
+              <label for="email">Work Email *</label>
+              <input class="input" id="email" name="email" type="email" inputmode="email" required placeholder="alex@acme.com" />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone (optional)</label>
+              <input class="input" id="phone" name="phone" inputmode="tel" placeholder="+1 555 555 5555" />
+            </div>
+            <div class="form-field">
+              <label for="industry">Choose Your Industry *</label>
+              <select id="industry" name="industry" required>
+                <option value="" disabled selected>Select one…</option>
+                <option>Recently Funded Startups</option>
+                <option>Healthcare</option>
+                <option>Small Business</option>
+                <option>Staffing</option>
+                <option>SaaS</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label class="policy"><input id="consent" type="checkbox" required /> I agree to the <a href="#" target="_blank">Terms</a> & <a href="#" target="_blank">Privacy</a>, and consent to receive transactional emails and periodic product updates. I can unsubscribe anytime.</label>
+            </div>
+            <div class="form-field">
+              <button class="btn" type="submit">Continue →</button>
+              <button class="btn ghost" type="button" id="skip-to-plans">Skip to Plans</button>
+            </div>
+          </form>
+
+          <!-- STEP 2: PLAN -->
+          <form id="step-2" class="step-form" hidden>
+            <h3>Step 2 · Select Your Plan</h3>
+            <div class="pricing" style="margin-top:8px">
+              <label class="card price" style="cursor:pointer">
+                <input type="radio" name="plan" value="monthly" style="display:none" required />
+                <h3>Monthly</h3>
+                <div class="amount">$99<span class="period">/mo</span></div>
+                <ul class="list features">
+                  <li>250+ weekly leads</li>
+                  <li>Cancel anytime</li>
+                </ul>
+              </label>
+              <label class="card price popular" style="cursor:pointer">
+                <input type="radio" name="plan" value="quarterly" style="display:none" required />
+                <span class="ribbon">Best Value</span>
+                <h3>Quarterly</h3>
+                <div class="amount">$499<span class="period">/qtr</span></div>
+                <ul class="list features">
+                  <li>1,000+ quarterly leads</li>
+                  <li>Priority support</li>
+                </ul>
+              </label>
+              <label class="card price" style="cursor:pointer">
+                <input type="radio" name="plan" value="lifetime" style="display:none" required />
+                <h3>Lifetime</h3>
+                <div class="amount">$4,999<span class="period"> one‑time</span></div>
+                <ul class="list features">
+                  <li>16,000+ YTD leads</li>
+                  <li>Weekly updates for life</li>
+                </ul>
+              </label>
+            </div>
+            <div class="form-field">
+              <button class="btn" type="submit">Proceed to Secure Checkout →</button>
+              <button class="btn ghost" type="button" id="back-to-profile">← Back</button>
+            </div>
+          </form>
+
+          <!-- STEP 3: THANK YOU / ACCESS -->
+          <div id="step-3" class="step-form" hidden>
+            <h3>Step 3 · You're In ✅</h3>
+            <p class="muted">Payment confirmed. We’ve sent an email with your private Google Sheet and onboarding tips. Bookmark it — it auto‑updates every week.</p>
+            <div class="card" style="background:#0f1320">
+              <strong>What happens next</strong>
+              <ul class="list">
+                <li>• You’ll receive an order confirmation email in seconds</li>
+                <li>• Your Google Sheet link is in that email (view‑only, weekly updates)</li>
+                <li>• Tips: best outreach templates, inbox set‑up, and compliance reminders</li>
+              </ul>
+            </div>
+            <div class="form-field">
+              <a class="btn" href="#">Open My Email</a>
+              <a class="btn secondary" href="#pricing">Invite a Teammate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: ORDER SUMMARY / TRUST -->
+        <aside class="card">
+          <h3>Order Summary</h3>
+          <div id="summary-plan" class="muted">Plan: <strong>—</strong></div>
+          <div id="summary-price" style="font-size:22px;margin:6px 0 12px">—</div>
+          <div class="card" style="background:#0f1320;margin-bottom:12px">
+            <strong>Includes</strong>
+            <ul class="list">
+              <li>• 250+ verified leads weekly</li>
+              <li>• Decision‑maker contacts</li>
+              <li>• Funding & hiring signals</li>
+              <li>• Private Google Sheet link</li>
+            </ul>
+          </div>
+          <div class="policy">Secure checkout via <strong>Stripe</strong> (primary) or <strong>FreshBooks</strong> (backup). You’ll receive instant access and a receipt by email.</div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ / COMPLIANCE -->
+  <section id="compliance">
+    <div class="container">
+      <div class="section-head">
+        <h2>Compliance & Data Policy</h2>
+        <p>Respect for privacy and inboxes is built‑in.</p>
+      </div>
+      <div class="split">
+        <div>
+          <details open>
+            <summary>Where do the leads come from?</summary>
+            <p class="muted">We compile leads from publicly available sources including funding announcements, company press releases, hiring boards, tech‑stack signals, and verified business directories. Every record is refreshed weekly and contact details are verified prior to delivery.</p>
+          </details>
+          <details>
+            <summary>Is outreach compliant with anti‑spam laws?</summary>
+            <p class="muted">Yes. Our data supports compliant B2B outreach under applicable frameworks (e.g., CAN‑SPAM, GDPR legitimate interest, CASL). Always include clear identification, a valid physical address, and an unsubscribe / opt‑out link. Limit cadence, honor opt‑outs promptly, and avoid automated bulk to personal inboxes where restricted.</p>
+          </details>
+          <details>
+            <summary>What permissions do I grant when I subscribe?</summary>
+            <p class="muted">By subscribing, you consent to receive transactional emails (order confirmations, access instructions) and periodic product updates or tips. You can unsubscribe from non‑transactional emails anytime via the link in our messages.</p>
+          </details>
+        </div>
+        <div>
+          <div class="card">
+            <strong>Best Practices Checklist</strong>
+            <ul class="list">
+              <li>• Use business addresses (no personal inboxes)</li>
+              <li>• Personalize by role & signal (funding/hiring)</li>
+              <li>• Include company address & opt‑out link</li>
+              <li>• Respect unsubscribes across systems</li>
+              <li>• Warm up domains & monitor reputation</li>
+            </ul>
+          </div>
+          <div class="card" style="margin-top:12px">
+            <strong>Data Handling</strong>
+            <p class="muted">We never sell or redistribute your customer data. Leads are delivered view‑only via Google Sheets with audit‑friendly access.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section id="cta">
+    <div class="container">
+      <div class="card" style="display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:center;background:linear-gradient(180deg,#0f1320,#0b0d12)">
+        <div>
+          <h2 style="margin:0 0 6px">Ready to stop chasing cold leads?</h2>
+          <p class="muted" style="margin:0 0 10px">Get your first batch of verified, high‑intent prospects today.</p>
+          <a class="btn" href="#pricing">Get Weekly Leads</a>
+        </div>
+        <div class="card" style="background:#0b0d12">
+          <strong>What you’ll receive</strong>
+          <ul class="list">
+            <li>• 250+ companies with buying signals every week</li>
+            <li>• Decision‑makers & emails</li>
+            <li>• Private Google Sheet link</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  </main>
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        © <span id="year"></span> Lead Engine Inc. · <a href="#" target="_blank">Privacy</a> · <a href="#" target="_blank">Terms</a> · <a href="#" target="_blank">Data Processing</a>
+      </div>
+      <div>Contact: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></div>
+    </div>
+  </footer>
+
+  <!-- JS: Minimal progressive flow + placeholder Stripe/FreshBooks links -->
+  <script>
+    (function(){
+      const $ = s => document.querySelector(s);
+      const $$ = s => Array.from(document.querySelectorAll(s));
+
+      const setStep = (n) => {
+        $$('#form-flow .step-form').forEach((el,i)=>{ el.hidden = (i !== (n-1)); });
+        $$('.step').forEach((el,i)=>{ el.classList.toggle('active', i < n); });
+      };
+
+      // Persist minimal state for summary
+      const state = { plan: null };
+      const updateSummary = () => {
+        const map = { monthly: {label:'Monthly Access', price:'$99/mo'}, quarterly:{label:'Quarterly Growth', price:'$499/qtr'}, lifetime:{label:'Lifetime Access', price:'$4,999 one‑time'} };
+        const s = map[state.plan] || {label:'—', price:'—'};
+        $('#summary-plan').innerHTML = `Plan: <strong>${s.label}</strong>`;
+        $('#summary-price').textContent = s.price;
+      };
+
+      // Step 1 → Step 2
+      $('#step-1').addEventListener('submit', e => {
+        e.preventDefault();
+        // minimal inline validation is handled by HTML5 required attrs
+        setStep(2);
+      });
+      $('#skip-to-plans').addEventListener('click', () => setStep(2));
+
+      // Select Plan (radio via card labels)
+      $$('#step-2 input[name="plan"]').forEach(r => r.addEventListener('change', () => {
+        state.plan = r.value; updateSummary();
+      }));
+
+      // Back to Step 1
+      $('#back-to-profile').addEventListener('click', () => setStep(1));
+
+      // Step 2 → Checkout (placeholder: attach your Stripe/FreshBooks URL)
+      $('#step-2').addEventListener('submit', e => {
+        e.preventDefault();
+        if(!state.plan){ alert('Please select a plan.'); return; }
+
+        // TODO: Replace these placeholders with your live checkout links
+        // You can also set them server‑side or via data attributes.
+        const CHECKOUT = {
+          monthly:  'https://checkout.stripe.com/pay/REPLACE_MONTHLY_PRICE_ID',
+          quarterly:'https://checkout.stripe.com/pay/REPLACE_QUARTERLY_PRICE_ID',
+          lifetime: 'https://checkout.stripe.com/pay/REPLACE_LIFETIME_PRICE_ID'
+        };
+
+        const FRESHBOOKS_FALLBACK = {
+          monthly:  'https://freshbooks.link/REPLACE_MONTHLY',
+          quarterly:'https://freshbooks.link/REPLACE_QUARTERLY',
+          lifetime: 'https://freshbooks.link/REPLACE_LIFETIME'
+        };
+
+        // Example: prefer Stripe; if it fails, use FreshBooks
+        try {
+          window.location.href = CHECKOUT[state.plan];
+        } catch(err){
+          console.warn('Stripe redirect failed, using FreshBooks fallback.', err);
+          window.location.href = FRESHBOOKS_FALLBACK[state.plan];
+        }
+      });
+
+      // Simulate Step 3 (Thank You) if you route back with a ?success=1
+      const url = new URL(window.location.href);
+      if(url.searchParams.get('success') === '1'){
+        setStep(3);
+        state.plan = url.searchParams.get('plan') || state.plan;
+        updateSummary();
+      } else {
+        setStep(1);
+      }
+
+      // Pricing buttons scroll to form + preselect plan
+      $$('[data-plan]').forEach(btn => btn.addEventListener('click', (e) => {
+        const plan = e.currentTarget.getAttribute('data-plan');
+        const radio = document.querySelector(`#step-2 input[value="${plan}"]`);
+        if(radio){ radio.checked = true; state.plan = plan; updateSummary(); }
+      }));
+
+      // Footer year
+      $('#year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
